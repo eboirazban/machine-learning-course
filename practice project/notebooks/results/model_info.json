@@ -1,0 +1,29 @@
+{
+  "features": [
+    "year",
+    "mileage",
+    "age",
+    "engine_size",
+    "owners",
+    "mileage_per_year",
+    "brand_freq",
+    "fuel_Electric",
+    "fuel_Hybrid",
+    "fuel_Petrol",
+    "transmission_Manual"
+  ],
+  "target": "price",
+  "model": "Gradient Boosting",
+  "metrics": {
+    "model": "Gradient Boosting",
+    "train_r2": 0.9646652648315329,
+    "test_r2": 0.935733052846743,
+    "train_mae": 25749.133680038467,
+    "test_mae": 31963.30335987165,
+    "train_rmse": 47329.603134932666,
+    "test_rmse": 62907.59925977916,
+    "train_mape": 7.280782947720716,
+    "test_mape": 8.49388401761617
+  },
+  "created_at": "2026-02-14 05:34:45"
+}
